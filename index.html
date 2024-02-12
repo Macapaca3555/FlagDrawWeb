@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<h1>Draw Your Flag</h1>
+
+<canvas id="can" width="500" height="300" style="border:1px solid grey;"></canvas>
+<p id="demo"></p>
+
+<script src="script.js">
+</script>
+
+<div id="color-buttons">
+<button class="color-button" style="background-color: #ff0000;"></button>
+<button class="color-button" style="background-color: #00ff00;"></button>
+<button class="color-button" style="background-color: #0000ff;"></button>
+<button class="color-button" style="background-color: #ffff00;"></button>
+<button class="color-button" style="background-color: #ff00ff;"></button>
+<button class="color-button" style="background-color: #00ffff;"></button>
+</div>
+<img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
+<div id= "clear-button">
+  <button class="clear-button" >Clear</button>
+</div>
+<input type="color" id="colourpicker" value="#000000">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="2" class="slider" id="myRange">
+        </div>
+<div id= "save-button">
+<button class="save-button">Save</button>
+</div>
+</body>
+</html>
